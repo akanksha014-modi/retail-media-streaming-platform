@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1030" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SaduiuSJSt0iUVguegOl-19" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SaduiuSJSt0iUVguegOl-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Mobile App/retail system-&amp;gt;add to cart-&amp;gt;ad click-&amp;gt;view-&amp;gt;purchase" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-20" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SaduiuSJSt0iUVguegOl-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="API Gateway-&amp;gt;OAuth2-&amp;gt;Rate limiting" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service Layer -&amp;gt;Spring Boot/Java 21 -&amp;gt;Validation -&amp;gt;Schema check-&amp;gt;EventId" vertex="1">
+          <mxGeometry height="340" width="120" x="390" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Service 2" vertex="1">
+          <mxGeometry height="51" width="120" x="390" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Service 1" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-21" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" target="SaduiuSJSt0iUVguegOl-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Service 2" vertex="1">
+          <mxGeometry height="70" width="120" x="390" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" value="Kafka" vertex="1">
+          <mxGeometry height="104" width="140" x="560" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-8" parent="SaduiuSJSt0iUVguegOl-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Topic 1" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-9" parent="SaduiuSJSt0iUVguegOl-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Topic 2" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-10" parent="SaduiuSJSt0iUVguegOl-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Topic 3" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-11" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Cassandra -&amp;gt;real time storage" vertex="1">
+          <mxGeometry height="80" width="60" x="740" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-27" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Insight APi Service-&amp;gt;/clicks/clicktoBasket/impressions" vertex="1">
+          <mxGeometry height="60" width="120" x="950" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-28" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SaduiuSJSt0iUVguegOl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-13" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Redis Cache" vertex="1">
+          <mxGeometry height="80" width="120" x="840" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-29" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SaduiuSJSt0iUVguegOl-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway" vertex="1">
+          <mxGeometry height="60" width="120" x="1050" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Retailers/Dashboard" vertex="1">
+          <mxGeometry height="80" width="120" x="1190" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-30" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SaduiuSJSt0iUVguegOl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-16" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Data Lake -&amp;gt;RAw event storage" vertex="1">
+          <mxGeometry height="110" width="60" x="740" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-18" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Snowflake" vertex="1">
+          <mxGeometry height="80" width="120" x="850" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-22" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" target="SaduiuSJSt0iUVguegOl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-23" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;" target="SaduiuSJSt0iUVguegOl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaduiuSJSt0iUVguegOl-24" edge="1" parent="1" source="SaduiuSJSt0iUVguegOl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="SaduiuSJSt0iUVguegOl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
